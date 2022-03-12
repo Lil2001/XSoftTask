@@ -1,0 +1,348 @@
+.imgBack {
+    width: 45%;
+    height: 230px;
+    background-image: url("/public/Images/Pictures/imagecardfirst.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 3px;
+}
+.ImgCompMob {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+ .ImgMob {
+     width: 100%;
+     display: flex;
+    
+ }
+
+.imgBackMob {
+    width: 100%;
+    height: 250px;
+    background-image: url("/public/Images/Pictures/imagecardfirst.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: flex-end;
+    display: flex;
+    border-radius: 3px;
+    margin: 10px 20px;
+}
+
+.imgBackMin {
+    width: 25%;
+    height: 230px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 3px;
+}
+
+.first {
+    background-image: url("/public/Images/Pictures/cardsecond.jpg");
+}
+
+.second {
+    background-image: url("/public/Images/Pictures/imagethird.jpg");
+    background-position: top left ;
+    background-size: 130%;
+}
+
+.Imgcomp {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.imgBackMax {
+    width: 45%;
+    height: 230px;
+    background-image: url("/public/Images/Pictures/image\ 237.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 3px;
+}
+
+.secondimg {
+    background-image: url("/public/Images/Pictures/image\ 239.jpg");
+}
+
+.firstimg {
+    background-image: url("/public/Images/Pictures/image\ 238.jpg");
+}
+
+.mobmax{
+    width: 450px;
+    margin: 0px 10px;
+}
+
+.imgBackMedium{
+    width: 31%;
+    height: 230px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 3px; 
+}
+
+.firstMed {
+    background-image: url("/public/Images/Pictures/image\ 240.jpg");
+}
+
+.secondMed {
+    background-image: url("/public/Images/Pictures/image\ 216.jpg");
+}
+
+.thirthMed {
+    background-image: url("/public/Images/Pictures/image\ 231.jpg");
+}
+
+.menDiv {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.mob{
+    width: 50%;
+    margin: 5px 15px;
+}
+
+.Minbanner {
+    width: 100%;
+    margin-left: 10px;
+    height: 50vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url("/public/Images/Pictures/image\ 243.jpg");
+    margin-top: 20px;
+    background-size: cover;
+    background-position: center;
+}
+ 
+.secComp {
+    display: flex;
+    width: 50%;
+}
+
+.prodDiv {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.MostpopProd {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+}
+
+.txtHeading  {
+    width: 100%;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 120%;
+    color: #272727;
+    padding: 30px 20px;
+}
+
+.imagePrint {
+    background-image: url("/public/Images/Pictures/comp.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 28%;
+    height: 110px;
+    display: flex;
+    align-items: flex-end;
+    padding: 10px 15px;
+    border-radius: 3px;
+}
+
+.firstPrint {
+    background-image: url("/public/Images/Pictures/Mask\ Group.jpg");
+}
+.secondPrint {
+    background-image: url("/public/Images/Pictures/image\ 226.jpg");
+}
+
+.thirthPrint {
+    background-image: url("/public/Images/Pictures/image\ 227.jpg");
+}
+
+.printComp {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.printComp > button {
+    height: 110px;
+    width: 100px;
+    padding: 30px 3px 3px 3px;
+    background: #23C2A8;
+    border-radius: 3px;
+    border: 1px solid #23C2A8;
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: left;
+    line-height: 150%;
+}
+.BannerMobFirst{
+    width: 100%;
+    display: none;
+    justify-content: center;
+    height: 40vh;
+    align-items: center;
+    background-color: #DDDFDC;
+    border: 1px solid #DDDFDC ;
+}
+ 
+.imagePrint > p {
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 15px;
+    line-height: 138%;
+    color: #232323;
+    
+    
+}
+.Business {
+    display: flex;
+    padding-left: 10px;
+}
+
+.foreverTxt {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.next {
+    background-image: url("/public/Images/Pictures/banner2.jpg");
+}
+
+.corner {
+    display: flex;
+}
+.MostPopMob {
+    display: none;
+}
+ 
+
+@media screen and (max-width:900px) {
+    .corner{
+        flex-direction: column;
+    }  
+
+    .Minbanner {
+        margin: 0;
+        justify-content: center;
+    }
+    .foreverTxt{
+        flex-direction: column;
+    }
+    .print {
+        display: none;
+    }
+    .compSecond {
+        display: none;
+    }
+    .printButton {
+        display: none;
+    }
+    .child1 {
+        display: none;
+    }
+    .thirthMed{
+        display: none;
+    }
+    .imgBackMedium {
+        width: 45%;
+    }
+    .Imgcomp {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .imgFirst {
+        width: 100%;
+        
+    }
+    .imgFirst > orangeButton {
+        display: none;
+    }
+    .first {
+        margin-top: 10px;
+        width: 45%;
+        height: 190px;
+    }
+
+    .second {
+        margin-top: 10px;
+        width: 45%;
+        background-size: 190%;
+        height: 190px;
+    }
+}
+
+@media screen and (min-width:900px){
+  .forprint {
+      display: none;
+  }
+}
+
+@media screen and (max-width:650px) {
+    .MostpopProd{
+        display: none;
+    }
+    .MostPopMob {
+        display: block;
+    }
+    .thirthPrint {
+        display: none;
+    }
+    .firstPrint {
+        width: 70%;
+    }
+    .secondPrint {
+        width: 20%;
+    }
+    .imgBackMedium {
+        width: 100%;
+    }
+    .secondMed {
+        display: none;
+    }
+  
+}
+
+
+@media screen and (max-width:740px) {
+    .child2 {
+        display: none;
+    }
+    .BannerMobFirst {
+        display: flex;
+    }
+    .Menchild1 {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width:450px) {
+    .child3 {
+        display: none;
+    }
+}

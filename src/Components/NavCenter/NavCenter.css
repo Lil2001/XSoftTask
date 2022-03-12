@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navCenter {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+}
+
+.navCenter div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search {
+    width: 40%;
+}
+
+.search input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #DFDFDF;
+} 
+
+ ::placeholder {
+    color: #7C7C7C;  
+}
+
+.search button {
+    background-color: #FCFCFC;
+    padding: 9.5px 15px;
+    border: 1px solid #DFDFDF;
+}
+
+.forever {
+    margin-left: 10px;
+}
+
+.signin {
+    display: flex;
+    align-items: center;
+}
+
+.signin > div {
+    margin-left: 10px;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+}
+
+.accsignin {
+    display: flex;
+}
+
+.card {
+    margin: 0 10px;
+}

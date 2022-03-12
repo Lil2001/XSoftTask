@@ -1,0 +1,62 @@
+.MinNavDiv {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+    margin-left: 10px;
+    border-bottom: 1px solid #D1D1D1;
+}
+
+.LinkMinDiv {
+    padding-bottom: 3px;
+
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.LinkMinDiv > a {
+    position: relative;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;  
+    color: #555555;
+    display: flex;
+    justify-content: center;
+}
+
+.LinkMinDiv > a::after {
+    content: "";
+    width: 0%;
+    height: 10px;
+    left: 0;
+    position: absolute;
+    background-image: url("/public/Images/Logo/underline.svg");
+    background-position: center;
+    bottom: -30px;
+    transition: 0.5s;
+}
+
+
+.LinkMinDiv > a:hover::after{
+    width: 100%;
+}
+
+
+
+@media screen and (max-width:900px) {
+    .LinkMinDiv {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width:500px) {
+    .LinkMinDiv {
+        width: 100%;
+    }
+    .navchild1 {
+        display: none;
+    }
+}

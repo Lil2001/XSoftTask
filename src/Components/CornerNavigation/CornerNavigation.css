@@ -1,0 +1,50 @@
+.CornerNavDiv {
+    margin-top: 20px;
+    width: 25%;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+.CornerNavDiv > ul > li > a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #444444;
+    width: 100%;
+    display: flex;
+    align-items: center; 
+}
+
+.CornerNavDiv > ul > li > a > img {
+    margin-right: 10px;
+}
+
+.CornerNavDiv > ul > li .selected, .CornerNavDiv ul .selected {
+    font-weight: bolder;
+    background-color: #F6F6F6;
+}
+
+.CornerNavDiv  ul  li {
+    padding: 10px 20px;
+   
+    
+}
+
+.CornerNavDiv > ul > li:hover {
+    font-weight: 600;
+    background-color: #F6F6F6;
+
+}
+
+.CornerNavDiv > ul > li:hover a {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 900px) {
+    .CornerNavDiv {
+        display: none;
+    }
+}

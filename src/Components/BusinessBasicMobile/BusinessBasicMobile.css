@@ -1,0 +1,106 @@
+.busnCompMob {
+    width: 100%;
+    background-image:url("/public/Images/Pictures/busines.jpg");
+    height: 70vh;
+}
+
+.busnCompMob > ul > li {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    color: #555555;
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.busnCompMob > ul  {
+    padding-top: 10px;
+}
+
+.busnCompMob > ul > li > button {
+    background: #FFFFFF;
+    border-radius: 3px;
+    border: 1px solid #FFFFFF;
+    padding: 3px;
+    width: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 138%;
+    text-transform: uppercase;
+    color: #CACACA;
+
+}
+
+.busMov {
+    width: 100%;
+    display: none ;
+}
+
+
+
+
+.ListStyleMob {
+    padding: 0px 10px;
+    width: 100%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #555555;
+    
+}
+
+.ListStyleMob > ul {
+    margin: 20px;
+}
+
+.ListStyleMob > ul > li {
+    list-style-type: none;
+    padding: 8px 7px;
+    display: flex;
+    align-items: center;
+
+}
+.ListStyleMob > ul > li > a {
+    margin-left: 10px;
+
+}
+
+.basicMob {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #23C2A8;
+    margin-bottom: 20px;
+}
+
+.basicMob > div {
+    display: flex;
+    align-items: center;
+    padding: 8px 7px;
+}
+
+.basicMob > div > a {
+    margin-left: 10px;
+}
+
+
+@media screen and (max-width:900px) {
+    .busMov {
+        display: block;
+    }
+}
+
+
+@media screen and (max-width:500px) {
+    .busnCompMob {
+        width: 100%;
+        background-position: center;
+        height: 85vh;
+    }
+}

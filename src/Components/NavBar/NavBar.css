@@ -1,0 +1,18 @@
+.navbars{
+    width: 90%;
+    margin: 0px auto;
+}
+
+@media screen and (max-width: 1250px) {
+    .navTop {
+        display: none;
+    }
+
+    .navCenter {
+        display: none;
+    }
+
+    .navbarDiv {
+        display: none;
+    }
+}

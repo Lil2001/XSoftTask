@@ -1,0 +1,57 @@
+.mobileText {
+    background: #EFEFEF;
+    width: 100%;
+    height: 60vh;
+    text-align: center;
+    display: none;
+}
+
+.firstTextMob {
+    padding-top: 50px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 15px;
+    color: #23C2A8;
+}
+
+.secondTextMob {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 120%;
+    color: #272727;
+    padding-top: 20px;
+}
+
+.grayTextMob {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 165.3%;
+    color: #6A6A6A;
+    padding-top: 20px;
+}
+.mobileText button {
+    background: #FF5A21;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 210px;
+    padding: 10px 30px;
+    font-size: 16px;
+    line-height: 130%;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin:10px auto;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 560px) {
+    .mobileText {
+        display: block;
+        height: 90vh;
+    }
+}
+
+
+

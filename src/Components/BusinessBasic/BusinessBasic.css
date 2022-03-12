@@ -1,0 +1,50 @@
+
+
+.ListStyle {
+    padding: 0px 10px;
+    width: 300px;
+    height: 60vh;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #555555;
+    
+}
+
+.ListStyle > ul > li {
+    list-style-type: none;
+    padding: 8px 7px;
+    display: flex;
+    align-items: center;
+
+}
+.ListStyle > ul > li > a {
+    margin-left: 10px;
+
+}
+
+.basic {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    height: 50px;
+    border-bottom: 1px solid #23C2A8;
+}
+
+.basic > div {
+    display: flex;
+    align-items: center;
+    padding: 8px 7px;
+}
+
+.basic > div > a {
+    margin-left: 10px;
+}
+
+
+@media screen and (max-width:900px) {
+    .ListStyle {
+        display: none;
+    }
+}

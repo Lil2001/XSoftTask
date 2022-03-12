@@ -1,0 +1,48 @@
+.CornerDivAll {
+  width: 75%;
+    background: #F6F6F6;
+    border-radius: 3px;
+    padding-top: 30px;
+    margin-top: 20px;
+    
+}
+
+.FirstCornerDiv {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.SecondCornerDiv {
+    margin-top: 30px ;
+    display: flex;
+    justify-content: space-evenly;  
+}
+
+.Linkcorner {
+    width: 100%;
+    display: flex;
+    justify-content: center;    
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 138%;
+    text-transform: uppercase;
+    margin: 27px 1px;
+
+}
+.Linkcorner > a {
+    color: #CACACA; 
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.Linkcorner > a > img {
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    .CornerDivAll {
+        display: none;
+    }
+}

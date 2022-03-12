@@ -1,0 +1,36 @@
+.CornerNavDivMob {
+    display: none;
+    margin: 20px;
+    width: 100%;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+.CornerNavDivMob > ul > li > a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #444444;
+    width: 100%;
+    display: flex;
+    align-items: center; 
+}
+
+.CornerNavDivMob  ul  li {
+    padding: 10px 20px;
+  
+}
+
+.CornerNavDivMob > ul > li > a > img {
+    margin-right: 15px;
+}
+ @media screen and (max-width: 900px) {
+    .CornerNavDivMob {
+        display: block;
+    }
+ }
+
+

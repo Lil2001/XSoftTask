@@ -1,0 +1,63 @@
+.bannerSecondDiv {
+    width: 255px;
+    height: 220px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 9px rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+    margin-right: 50px;
+    padding: 10px 20px;
+}
+
+.FirstTextBanner {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 124%;
+    color: #232323; 
+    margin: 5px 15px;
+}
+
+.GreyTXTBanner {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 158.4%;
+    color: #9C9C9C;
+    margin: 5px 15px;
+}
+
+.greenbButton{
+    background: #FFFFFF;
+    border: 1px solid #23C2A8;
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: 189px;
+    height: 24px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 138%;
+    text-transform: uppercase;
+    color: #23C2A8;
+    margin: 5px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+
+@media screen and (max-width:900px) {
+    .bannerSecondDiv {
+        margin: 0;
+    }
+}
+
+
+@media screen and (max-width:500px) {
+    
+    .bannerSecondDiv {
+        width: 230px;
+        height: 200px; 
+        padding: 5px 10px;
+    }
+}

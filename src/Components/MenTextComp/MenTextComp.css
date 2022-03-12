@@ -1,0 +1,42 @@
+.menTextDiv {
+    padding: 0 25px;
+    width: 33%;
+    border-right: 1px solid #f7f7f7;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+}
+
+.headingTxt > p {
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 140%;    
+    text-transform: capitalize;    
+    color: #232323;
+}
+
+.MentxtImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+.headingTxt {
+    height: 100px;
+}
+
+.mentxtGray > p {
+    margin: 10px 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 168%;    
+    color: #4C4C4C;
+}
+
+
+@media screen and (max-width:900px) {
+    .menTextDiv {
+        width: 100%;
+    }
+}

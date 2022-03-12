@@ -1,0 +1,15 @@
+.Iconsdiv > img  {
+    width: 170px;
+}
+
+.Iconsdiv  {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0px;
+} 
+
+@media screen and (max-width: 880px) {
+    .Iconsdiv {
+        display: none;
+    }  
+}

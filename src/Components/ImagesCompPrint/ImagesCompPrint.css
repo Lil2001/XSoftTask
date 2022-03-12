@@ -1,0 +1,6 @@
+.ImagePrintComp {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    align-items: flex-end;
+}

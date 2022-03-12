@@ -1,0 +1,73 @@
+.banner {
+    width: 100%;
+    height: 75vh;
+    padding-bottom: 50px;
+    background-image: url("/public/Images/Pictures/businesscard.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.textbanner {
+    width: 600px;
+    padding: 90px 40px 0 60px;
+}
+
+.firstText {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px
+}
+
+.grayText {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    margin: 20px 0;
+    color: #4F4F4F;
+}
+
+.minText {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 180%;
+    color: #707070;
+}
+
+.textbanner button {
+    background: #FD8516;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 10px 30px;
+    font-size: 16px;
+    line-height: 130%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 210px;
+}
+
+.textbanner > button > img{
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 560px) {
+    .textbanner {
+        display: none;
+    }
+}
+@media screen and (min-width: 430px){
+    .banner {
+        background-position: center;
+    }
+}
+
+@media screen and (max-width:1250px) {
+    .banner {
+        height: 90vh;
+    }
+}

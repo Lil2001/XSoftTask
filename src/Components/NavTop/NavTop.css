@@ -1,0 +1,47 @@
+nav {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.navTop {
+    padding-top: 15px;
+    display: flex;
+}
+
+.navTop a {
+    color: black;
+    font-size: 13px;
+}
+
+.firstNavTopSection a {
+    color: #9C9C9C;
+}
+
+.firstNavTopSection {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.secondNavTopSection {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+}
+
+.secondNavTopSection div {
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.secondNavTopSection a {
+    padding-left: 7px;
+}
+
+.secondNavTopSection a:hover {
+    color: #23C2A8;
+}
+
+

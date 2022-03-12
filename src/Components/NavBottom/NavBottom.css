@@ -1,0 +1,32 @@
+.navbarDiv {
+  margin-top: 10px;
+  width: 100%;
+  
+}
+
+@font-face {
+    font-family: workSans;
+    src: url(../../../public/Fonts/Work_Sans/static/WorkSans-Regular.ttf);
+}
+
+.navbarDiv ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: 12px;
+    font-family: workSans;
+    padding: 15px 0px;
+    border-top: 1px solid #DFDFDF;
+    border-bottom: 1px solid #DFDFDF;
+}
+
+.navbarDiv > ul > li {
+    padding-right: 6px;
+    
+}
+
+a {
+    color: black;
+}
+
+

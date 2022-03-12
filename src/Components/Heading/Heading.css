@@ -1,0 +1,40 @@
+.headingDiv {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   padding: 30px 20px;
+   align-items: center;
+   text-align: start;
+}
+
+.txtComp  > p {
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 25px;
+    line-height: 120%;
+    color: #272727;
+    
+}
+
+.txtComp {
+    width: 85%;
+}
+
+.headPic {
+    display: flex;
+}
+
+@media screen and (max-width:900px) {
+    .headingDiv {
+        padding: 30px 10px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .txtComp  > p {
+        font-size: 20px;
+    }
+    .headingDiv {
+        padding: 30px 0;
+    }
+}

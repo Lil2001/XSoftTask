@@ -1,0 +1,39 @@
+.cornerDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.textcFirst {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 132%;
+    color: #3E3E3E;
+    padding:5px 0px;
+
+}
+
+.textcSecond {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 127%;
+    color: #23C2A8;
+}
+
+
+.cornerimg {
+    width: 160px;
+    height: 159px;
+    border-radius: 3px;
+}
+
+@media screen and (max-width:400px) {
+    .cornerimg {
+        width: 130px;
+        height: 129px;
+    }
+    .txtcornerItemv p{
+        margin-left: 10px;
+    }
+}

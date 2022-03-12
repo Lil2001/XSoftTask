@@ -1,0 +1,22 @@
+.divImageMin p {
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 15px;
+    line-height: 138%;
+    color: #232323;
+    padding: 0px 7px;
+}
+.divImageMin{
+    width: 100%;
+}
+
+.greenButtonMin {
+    background: #23C2A8;
+    border: 1px solid #23C2A8 ;
+    border-radius: 3px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 13px;
+    width: 141px;
+    height: 43px;
+}

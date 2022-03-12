@@ -1,0 +1,46 @@
+.divImage p {
+    font-weight: bolder;
+    font-size: 19px;
+    line-height: 138%;
+    color: #232323;
+    padding: 0px 5px;
+}
+
+.divImage {
+    width: 100%;
+}
+
+.greenButton {
+    background: #23C2A8;
+    border: 1px solid #23C2A8 ;
+    border-radius: 3px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 13px;
+    width: 141px;
+    height: 43px;
+}
+
+.orangeButton {
+    background: #FD8516;
+    border: 1px solid #FD8516;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size: 16px;
+    line-height: 130%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 148px;
+    height: 43px;
+    margin-left: auto;
+}
+
+.buttonComponent {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+}

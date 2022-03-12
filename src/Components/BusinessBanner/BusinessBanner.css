@@ -1,0 +1,45 @@
+.busnComp {
+    width: 70%;
+    height: 60vh;
+    background-image:url("/public/Images/Pictures/busines.jpg");
+    background-position: right;
+    background-size: cover;
+}
+
+.busnComp > ul > li {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    color: #555555;
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.busnComp > ul  {
+    padding-top: 10px;
+}
+
+.busnComp > ul > li > button {
+    background: #FFFFFF;
+    border-radius: 3px;
+    border: 1px solid #FFFFFF;
+    padding: 3px;
+    width: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 138%;
+    text-transform: uppercase;
+    color: #CACACA;
+
+}
+
+@media screen and (max-width:900px) {
+    .busnComp {
+        display: none;
+    }
+}

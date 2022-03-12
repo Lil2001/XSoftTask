@@ -1,0 +1,25 @@
+.indDiv{
+    width: 100%;
+    margin-top: 40px;
+}
+
+.indDiv > p {
+    font-weight: bolder;
+    font-size: 25px;
+    line-height: 120%;
+    color: #272727;
+    margin-left: 20px;
+}
+
+.indImgDiv {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+@media screen and (max-width:900px) {
+    .indImgDiv {
+        flex-wrap: wrap;
+    }
+}

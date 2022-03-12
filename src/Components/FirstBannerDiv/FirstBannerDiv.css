@@ -1,0 +1,66 @@
+.bannerFirstDiv {
+    width: 255px;
+    height: 197px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 9px rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+    padding: 10px 20px;
+    margin-right: 50px;
+}
+
+.Firstbgreen {
+    margin: 10px 15px;
+    background: #23C2A8;
+    border-radius: 3px;
+    border: 1px solid #23C2A8;
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    width: 114px;
+    height: 24px;
+    line-height: 138%;
+    text-align: center;
+}
+
+.bannerFirstDiv  > p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 134%;
+    color: #232323;
+    margin: 5px 15px;
+}
+
+.orangebButton {
+    background: #FFFFFF;
+    border: 1px solid #FD8516;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin: 10px 15px;
+    width: 129px;
+    height: 24px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 138%;
+    text-transform: uppercase;  
+    color: #FD8516;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 7px;
+
+}
+
+
+@media screen and (max-width:900px) {
+    .bannerFirstDiv {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:740px) {
+    .bannerFirstDiv{
+        display: none;
+        
+    }
+}

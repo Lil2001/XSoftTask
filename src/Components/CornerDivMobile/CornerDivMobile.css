@@ -1,0 +1,55 @@
+.CornerMobileDiv {
+    display: none;
+    width: 100%;
+    margin: 10px;
+    background: #F6F6F6;
+    border-radius: 3px;
+}
+
+.CornerMobileFirst {
+    display: flex;
+    justify-content: space-evenly;
+    margin:20px 10px;
+}
+
+.LinkMobcorner{
+   margin: 20px 35px;
+   display: flex;
+   align-items: center;
+}
+.LinkMobcorner > img {
+    margin-right: 15px;
+}
+
+.Linkcorner {
+    width: 100%;
+    display: flex;
+    justify-content: center;    
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 138%;
+    text-transform: uppercase;
+    margin: 27px 1px;
+
+}
+.Linkcorner > a {
+    color: #CACACA; 
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.Linkcorner > a > img {
+    margin-left: 10px;
+}
+
+
+@media screen and (max-width: 900px) {
+    .CornerMobileDiv {
+        display: block;
+    }
+ }
+
+ @media screen and (max-width: 400px) {
+
+ }
